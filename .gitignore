@@ -17,3 +17,9 @@
 
 # VisualStudio Code
 .vscode/
+
+# Applications
+IP
+IPv4Mask
+Mask
+ResolveIP
