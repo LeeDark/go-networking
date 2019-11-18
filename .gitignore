@@ -26,3 +26,5 @@ ResolveIP
 LookupHost
 LookupPort
 GetHeadInfo
+DaytimeServer
+DaytimeClient
