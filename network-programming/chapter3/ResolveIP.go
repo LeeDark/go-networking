@@ -9,7 +9,6 @@ import (
 func main() {
 	if len(os.Args) != 2 {
 		fmt.Fprintf(os.Stderr, "Usage: %s hostname\n", os.Args[0])
-		fmt.Println("Usage:", os.Args[0], "hostname")
 		os.Exit(1)
 	}
 	name := os.Args[1]
@@ -17,7 +16,7 @@ func main() {
 	addr, err := net.ResolveIPAddr("ip6", name)
 	if err != nil {
 		fmt.Println("Resolution error", err.Error())
-		os.Exit(1)
+		os.Exit(2)
 	}
 
 	fmt.Println("Resolved address is", addr.String())
