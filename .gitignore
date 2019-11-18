@@ -24,3 +24,4 @@ IPv4Mask
 Mask
 ResolveIP
 LookupHost
+LookupPort
