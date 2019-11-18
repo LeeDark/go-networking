@@ -25,3 +25,4 @@ Mask
 ResolveIP
 LookupHost
 LookupPort
+GetHeadInfo
