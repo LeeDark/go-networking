@@ -20,7 +20,7 @@ func main() {
 	addr := net.ParseIP(dotAddr)
 	if addr == nil {
 		fmt.Println("Invalid address")
-		os.Exit(1)
+		os.Exit(2)
 	}
 
 	mask := net.CIDRMask(ones, bits)

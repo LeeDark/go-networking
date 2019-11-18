@@ -17,9 +17,9 @@ func main() {
 	addr := net.ParseIP(name)
 	if addr == nil {
 		fmt.Println("Invalid address")
-	} else {
-		fmt.Println("The address is ", addr.String())
+		os.Exit(2)
 	}
 
+	fmt.Println("The address is ", addr.String())
 	os.Exit(0)
 }
